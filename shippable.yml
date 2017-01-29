@@ -16,7 +16,7 @@ env:
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
     - DOCKER_REPO=node-build-push-docker-ecr
-    - AWS_ECR_URL=374168611083.dkr.ecr.us-east-1.amazonaws.com # {AWS account ID}.dkr.ecr.us-east-1
+    - AWS_ECR_URL=088493810274.dkr.ecr.us-west-2.amazonaws.com # {AWS account ID}.dkr.ecr.us-east-1
 
 build:
 
